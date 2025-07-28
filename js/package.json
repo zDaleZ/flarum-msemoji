@@ -4,8 +4,8 @@
     "version": "0.0.0",
     "prettier": "@flarum/prettier-config",
     "dependencies": {
-        "simple-emoji-map": "^0.5.1",
-        "msemoji": "^1.1.2"
+        "msemoji": "^1.2.0",
+        "simple-emoji-map": "^0.5.1"
     },
     "devDependencies": {
         "@flarum/prettier-config": "^1.0.0",
