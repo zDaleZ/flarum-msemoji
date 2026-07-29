@@ -4,8 +4,9 @@
     "version": "0.0.0",
     "prettier": "@flarum/prettier-config",
     "dependencies": {
+        "emojibase-data": "^17.0.0",
         "msemoji": "^1.2.0",
-        "simple-emoji-map": "^0.5.1"
+        "simple-emoji-map": "^1.0.0"
     },
     "devDependencies": {
         "@flarum/prettier-config": "^1.0.0",
@@ -22,6 +23,7 @@
         "build": "webpack --mode production",
         "format": "prettier --write src",
         "format-check": "prettier --check src",
-        "analyze": "cross-env ANALYZER=true yarn run build"
+        "analyze": "cross-env ANALYZER=true yarn run build",
+        "postinstall": "npm rebuild simple-emoji-map"
     }
 }

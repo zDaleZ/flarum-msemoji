@@ -7,8 +7,8 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/DellZHackintosh/flarum-msemoji/issues",
-        "source": "https://github.com/DellZHackintosh/flarum-msemoji"
+        "issues": "https://github.com/zDaleZ/flarum-msemoji/issues",
+        "source": "https://github.com/zDaleZ/flarum-msemoji"
     },
     "require": {
         "flarum/core": "^1.4"
